@@ -304,3 +304,51 @@ main .analyse .searches svg circle{
     stroke-dashoffset: -30;
     transition: all 0.3s ease;
 }
+
+main .new-users{
+    margin-top: 1.3rem;
+}
+
+main .new-users .user-list{
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.3s ease;
+    cursor: pointer;    
+}
+
+main .new-users .user-list:hover{
+    box-shadow: none;
+}
+
+main .new-users .user-list .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .new-users .user-list .user img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-bottom: 0.4rem;
+    object-fit: cover;
+}
+
+main .new-users .user-list .user span{ 
+    color: var(--color-dark-variant);
+    font-size: 5rem;
+    text-align: center;
+    background-color: var(--color-light); 
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0.4rem;
+    border-radius: 50%;
+
+}
